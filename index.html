@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                
+                <div class="score-box">
+                    <p id="home-score">0</p>
+                    </div>
+
+                    <div class="inc">
+                        <div id="inc-1">
+                            <button onclick="homePlusOne()">+1</button>
+                        </div>
+                        <div id="inc-2">
+                            <button onclick="homePlusTwo()">+2</button>
+                        </div>
+                        <div id="inc-3">
+                            <button onclick="homePlusThree()">+3</button>
+                        </div>
+                </div> 
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="score-box">
+                    <p id="away-score">0</p>
+                    </div>
+
+                    <div class="inc">
+                        <div id="inc-1">
+                            <button onclick="plusOne()">+1</button>
+                        </div>
+                        <div id="inc-2">
+                            <button onclick="plusTwo()">+2</button>
+                        </div>
+                        <div id="inc-3">
+                            <button onclick="plusThree()">+3</button>
+                        </div>
+                </div> 
+            </div>
+            </div>
+        </div>
+        <div id="reset-btn-div">
+            <button id="reset-btn" onclick="resetBtn()">RESET</button>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
